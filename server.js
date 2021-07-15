@@ -14,4 +14,5 @@ bot.launch();
 process.once("SIGINT", () => bot.stop("SIGINT"));
 process.once("SIGTERM", () => bot.stop("SIGTERM"));
 
+app.get("/", (req, res) => res.send("Working"));
 app.listen(process.env.PORT || 2527, () => console.log("Running on port 2527"));
