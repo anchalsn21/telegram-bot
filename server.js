@@ -8,6 +8,8 @@ bot.start((ctx) => ctx.reply("Welcome"));
 bot.help((ctx) => ctx.reply("Send me a sticker"));
 bot.on("sticker", (ctx) => ctx.reply("👍"));
 bot.hears("hi", (ctx) => ctx.reply("Hey there"));
+
+bot.on("text", (ctx) => ctx.reply(`${text}`));
 bot.launch();
 
 // Enable graceful stop
