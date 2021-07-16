@@ -17,6 +17,7 @@
     "express": "^4.17.1",
     "lyrics-finder": "^21.7.0",
     "nodemon": "^2.0.12",
-    "telegraf": "^4.4.0"
+    "telegraf": "^4.4.0",
+    "valid-url": "^1.0.9"
   }
 }
